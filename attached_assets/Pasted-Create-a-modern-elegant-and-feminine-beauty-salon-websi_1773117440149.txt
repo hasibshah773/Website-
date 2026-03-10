@@ -1,0 +1,156 @@
+Create a modern, elegant, and feminine beauty salon website for a beauty parlour business.
+
+Business Details:
+Business Name: Dream Look Makeover by Barsha
+Business Type: Beauty Parlour / Makeup Studio
+Location: College Row, 1st Lane, Barishal, Bangladesh
+Phone: +8801739631389
+
+Business Description:
+Dream Look Makeover by Barsha is a professional beauty parlour and makeup studio in Barishal that provides high-quality beauty and makeup services for women. The salon specializes in bridal makeup, party makeup, and beauty care services designed to help clients achieve their perfect look for special occasions.
+
+Target Audience:
+Women, brides, and young girls in Barishal who are looking for professional beauty and makeup services.
+
+Website Style:
+Elegant, feminine, modern, luxury beauty salon design.
+
+Color Palette:
+Soft Pink, Rose Gold, White, and Nude tones.
+
+Typography:
+Elegant modern fonts suitable for beauty brands.
+
+📄 Website Pages Structure
+
+Create the following pages:
+
+1️⃣ Home Page
+
+Sections:
+
+Hero Section with bridal makeup image and headline
+
+Short introduction about the salon
+
+Featured services
+
+Why choose us
+
+Gallery preview
+
+Customer testimonials
+
+Call-to-action booking section
+
+Contact information
+
+Hero Headline Example:
+"Enhance Your Natural Beauty with Dream Look Makeover"
+
+Subtext:
+Professional bridal and party makeup services in Barishal.
+
+Button:
+Book Appointment
+
+2️⃣ About Page
+
+Sections:
+
+About Dream Look Makeover
+
+Introduction of the makeup artist Barsha
+
+Mission and vision
+
+Experience and service quality
+
+Example Text:
+
+Dream Look Makeover by Barsha is a trusted beauty parlour located in Barishal. We specialize in creating stunning bridal and party looks that enhance natural beauty and boost confidence.
+
+3️⃣ Services Page
+
+Include beauty services such as:
+
+Bridal Makeup
+
+Party Makeup
+
+Engagement Makeup
+
+Facial Treatment
+
+Hair Styling
+
+Mehendi Design
+
+Skin Care Treatment
+
+Each service should include:
+
+Short description
+
+Price (optional)
+
+Image
+
+4️⃣ Gallery Page
+
+Display:
+
+Bridal makeup photos
+
+Before/after transformations
+
+Party makeup looks
+
+Client photos
+
+Use a modern image grid layout.
+
+5️⃣ Booking / Appointment Page
+
+Include:
+
+Booking form
+
+Name
+
+Phone
+
+Service selection
+
+Preferred date
+
+CTA:
+Book Your Beauty Appointment Today
+
+6️⃣ Contact Page
+
+Include:
+
+Address
+College Row, 1st Lane, Barishal, Bangladesh
+
+Phone
+01739631389
+
+Google Map location
+
+Facebook Page Link
+
+⭐ Extra Features
+
+Add these features:
+
+WhatsApp booking button
+
+Facebook Messenger chat
+
+Instagram / Facebook gallery integration
+
+Mobile-friendly responsive design
+
+SEO optimized structure
