@@ -16,6 +16,9 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
+  const isHome = location === "/";
+  const solidNav = !isHome || scrolled;
+
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 20);
     window.addEventListener("scroll", handleScroll);
@@ -29,7 +32,7 @@ export default function Navbar() {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled
+        solidNav
           ? "bg-white/95 backdrop-blur-md shadow-sm border-b border-rose-100"
           : "bg-transparent"
       }`}
@@ -44,13 +47,13 @@ export default function Navbar() {
               <div>
                 <div
                   className="font-display font-bold text-sm leading-tight"
-                  style={{ color: scrolled ? "hsl(340 75% 48%)" : "white" }}
+                  style={{ color: solidNav ? "hsl(340 75% 48%)" : "white" }}
                 >
                   Dream Look
                 </div>
                 <div
                   className="text-xs leading-tight tracking-widest uppercase"
-                  style={{ color: scrolled ? "hsl(340 8% 38%)" : "rgba(255,255,255,0.85)" }}
+                  style={{ color: solidNav ? "hsl(340 8% 38%)" : "rgba(255,255,255,0.85)" }}
                 >
                   Makeover by Barsha
                 </div>
@@ -65,7 +68,7 @@ export default function Navbar() {
                   className={`px-4 py-2 rounded-md text-sm font-medium transition-colors cursor-pointer ${
                     location === link.href
                       ? "text-primary font-semibold"
-                      : scrolled
+                      : solidNav
                       ? "text-foreground/70 hover:text-primary"
                       : "text-white/90 hover:text-white"
                   }`}
@@ -90,7 +93,7 @@ export default function Navbar() {
             onClick={() => setIsOpen(!isOpen)}
             data-testid="button-mobile-menu"
             aria-label="Toggle menu"
-            style={{ color: scrolled ? "hsl(340 8% 15%)" : "white" }}
+            style={{ color: solidNav ? "hsl(340 8% 15%)" : "white" }}
           >
             {isOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
           </button>
