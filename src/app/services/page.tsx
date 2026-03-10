@@ -139,7 +139,7 @@ export default function Services() {
                           Book Now <ArrowRight className="w-4 h-4" />
                         </Button>
                       </Link>
-                      <a href="tel:+8801739631389">
+                      <a href="tel:+8801951592999">
                         <Button variant="outline" className="gap-2"><Phone className="w-4 h-4" /> Call Us</Button>
                       </a>
                     </div>
@@ -163,7 +163,7 @@ export default function Services() {
                 Book Consultation <ArrowRight className="w-4 h-4" />
               </Button>
             </Link>
-            <a href="https://wa.me/8801739631389" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/8801951592999" target="_blank" rel="noopener noreferrer">
               <Button size="lg" variant="outline" className="gap-2" data-testid="button-services-whatsapp">WhatsApp Us</Button>
             </a>
           </div>

@@ -41,7 +41,7 @@ export default function Footer() {
                 <Instagram className="w-4 h-4 text-white" />
               </a>
               <a
-                href="https://wa.me/8801739631389"
+                href="https://wa.me/8801951592999"
                 target="_blank"
                 rel="noopener noreferrer"
                 data-testid="link-whatsapp"
@@ -84,14 +84,14 @@ export default function Footer() {
               </div>
               <div className="flex items-center gap-3">
                 <Phone className="w-4 h-4 text-primary flex-shrink-0" />
-                <a href="tel:+8801739631389" className="text-white/70 text-sm hover:text-primary transition-colors">
-                  +880 1739-631389
+                <a href="tel:+8801951592999" className="text-white/70 text-sm hover:text-primary transition-colors">
+                  +880 1951-592999
                 </a>
               </div>
               <div className="flex items-center gap-3">
                 <MessageCircle className="w-4 h-4 text-primary flex-shrink-0" />
                 <a
-                  href="https://wa.me/8801739631389"
+                  href="https://wa.me/8801951592999"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-white/70 text-sm hover:text-primary transition-colors"
@@ -119,7 +119,7 @@ export default function Footer() {
       </div>
 
       <a
-        href="https://wa.me/8801739631389"
+        href="https://wa.me/8801951592999"
         target="_blank"
         rel="noopener noreferrer"
         data-testid="button-whatsapp-float"

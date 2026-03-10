@@ -113,7 +113,7 @@ export default function Booking() {
                   </p>
                   <div className="bg-primary/5 rounded-xl p-4 mb-6 text-sm text-muted-foreground">
                     If you don't hear from us within 24 hours, please call us at{" "}
-                    <a href="tel:+8801739631389" className="text-primary font-medium">+880 1739-631389</a>
+                    <a href="tel:+8801951592999" className="text-primary font-medium">+880 1951-592999</a>
                   </div>
                   <Button onClick={() => setSubmitted(false)} variant="outline" data-testid="button-book-another">
                     Book Another Appointment
@@ -227,16 +227,16 @@ export default function Booking() {
               <Card className="p-6 border-card-border" data-testid="card-contact-info">
                 <h3 className="font-display font-semibold text-foreground mb-4">Get in Touch</h3>
                 <div className="space-y-4">
-                  <a href="tel:+8801739631389" className="flex items-center gap-4 group">
+                  <a href="tel:+8801951592999" className="flex items-center gap-4 group">
                     <div className="w-11 h-11 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
                       <Phone className="w-5 h-5 text-primary" />
                     </div>
                     <div>
                       <div className="text-xs text-muted-foreground mb-0.5">Call Us</div>
-                      <div className="text-sm font-medium text-foreground group-hover:text-primary transition-colors">+880 1739-631389</div>
+                      <div className="text-sm font-medium text-foreground group-hover:text-primary transition-colors">+880 1951-592999</div>
                     </div>
                   </a>
-                  <a href="https://wa.me/8801739631389" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 group">
+                  <a href="https://wa.me/8801951592999" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 group">
                     <div className="w-11 h-11 rounded-full bg-green-50 flex items-center justify-center flex-shrink-0">
                       <MessageCircle className="w-5 h-5 text-green-600" />
                     </div>

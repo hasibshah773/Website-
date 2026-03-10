@@ -385,7 +385,7 @@ export default function Home() {
                 Book Appointment
               </Button>
             </Link>
-            <a href="tel:+8801739631389">
+            <a href="tel:+8801951592999">
               <Button
                 size="lg"
                 variant="outline"

@@ -7,9 +7,9 @@ const contactMethods = [
   {
     icon: Phone,
     title: "Call Us",
-    detail: "+880 1739-631389",
+    detail: "+880 1951-592999",
     sub: "Available Sat–Thu, 10AM–8PM",
-    action: "tel:+8801739631389",
+    action: "tel:+8801951592999",
     label: "Call Now",
     color: "bg-primary/10",
     iconColor: "text-primary",
@@ -17,9 +17,9 @@ const contactMethods = [
   {
     icon: MessageCircle,
     title: "WhatsApp",
-    detail: "+880 1739-631389",
+    detail: "+880 1951-592999",
     sub: "Quick responses via WhatsApp",
-    action: "https://wa.me/8801739631389",
+    action: "https://wa.me/8801951592999",
     label: "Chat Now",
     color: "bg-green-50",
     iconColor: "text-green-600",
@@ -114,7 +114,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <div className="font-medium text-foreground mb-0.5">Phone</div>
-                    <a href="tel:+8801739631389" className="text-primary text-sm hover:underline">+880 1739-631389</a>
+                    <a href="tel:+8801951592999" className="text-primary text-sm hover:underline">+880 1951-592999</a>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
