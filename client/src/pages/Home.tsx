@@ -17,22 +17,22 @@ const services = [
   {
     title: "Bridal Makeup",
     description: "Flawless, long-lasting bridal looks tailored for your special day.",
-    image: "/images/service-bridal.png",
+    image: "/images/real-bridal-red-after.png",
     price: "From ৳3,500",
     icon: "💍",
   },
   {
     title: "Party Makeup",
     description: "Glamorous and vibrant looks perfect for every celebration.",
-    image: "/images/service-party.png",
-    price: "From ৳1,200",
+    image: "/images/real-party-clients.png",
+    price: "From ৳750",
     icon: "✨",
   },
   {
-    title: "Facial Treatment",
-    description: "Rejuvenating facials for radiant, glowing skin.",
-    image: "/images/service-facial.png",
-    price: "From ৳800",
+    title: "Hair Styling",
+    description: "Elegant hair treatments and styles for every occasion.",
+    image: "/images/real-hair-flowers.png",
+    price: "From ৳600",
     icon: "🌸",
   },
 ];
@@ -169,9 +169,9 @@ export default function Home() {
               </Link>
             </div>
             <div className="order-1 md:order-2 relative">
-              <div className="rounded-2xl overflow-hidden aspect-[4/3] shadow-2xl">
+              <div className="rounded-2xl overflow-hidden aspect-[3/4] shadow-2xl">
                 <img
-                  src="/images/about-barsha.png"
+                  src="/images/real-barsha-portrait.png"
                   alt="Makeup artist Barsha at work"
                   className="w-full h-full object-cover"
                 />
@@ -293,12 +293,12 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
             {[
-              "/images/gallery-2.png",
-              "/images/gallery-3.png",
-              "/images/service-bridal.png",
-              "/images/gallery-5.png",
-              "/images/gallery-6.png",
-              "/images/service-party.png",
+              "/images/real-bridal-red-after.png",
+              "/images/real-gold-glitter.png",
+              "/images/real-bridal-elegant.png",
+              "/images/real-party-clients.png",
+              "/images/real-hair-flowers.png",
+              "/images/real-bridal-lavender.png",
             ].map((img, i) => (
               <div
                 key={i}

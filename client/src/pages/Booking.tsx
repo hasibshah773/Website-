@@ -42,6 +42,7 @@ const services = [
   "Engagement Makeup",
   "Facial Treatment",
   "Hair Styling",
+  "Hair Spa & Rebonding",
   "Mehendi Design",
   "Skin Care Treatment",
   "Other / Consultation",

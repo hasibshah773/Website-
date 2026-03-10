@@ -4,10 +4,64 @@ import { Badge } from "@/components/ui/badge";
 
 const galleryItems = [
   {
-    src: "/images/gallery-2.png",
-    alt: "Bridal makeup look",
+    src: "/images/real-bridal-red-after.png",
+    alt: "Red bridal makeup look",
     category: "Bridal",
-    title: "Traditional Bridal Look",
+    title: "Red Bride Look",
+  },
+  {
+    src: "/images/real-bridal-elegant.png",
+    alt: "Elegant bride in lavender saree",
+    category: "Bridal",
+    title: "Elegant Bride",
+  },
+  {
+    src: "/images/real-bridal-lavender.png",
+    alt: "Bridal makeup in lavender saree with gold jewelry",
+    category: "Bridal",
+    title: "Lavender Bridal Glam",
+  },
+  {
+    src: "/images/real-gold-glitter.png",
+    alt: "Gold glittery signature makeup",
+    category: "Bridal",
+    title: "Gold Glitter Signature",
+  },
+  {
+    src: "/images/real-party-clients.png",
+    alt: "Party makeup clients in red sarees",
+    category: "Party",
+    title: "Party Makeover",
+  },
+  {
+    src: "/images/real-party-barsha.png",
+    alt: "Party makeup look by Barsha",
+    category: "Party",
+    title: "Party Look",
+  },
+  {
+    src: "/images/real-barsha-portrait.png",
+    alt: "Barsha makeup artist portrait",
+    category: "Party",
+    title: "Makeup Artist Look",
+  },
+  {
+    src: "/images/real-hair-spa.png",
+    alt: "Hair spa treatment result - silky straight hair",
+    category: "Hair",
+    title: "Hair Spa Result",
+  },
+  {
+    src: "/images/real-hair-flowers.png",
+    alt: "Bridal hair styling with flowers",
+    category: "Hair",
+    title: "Floral Bridal Hair",
+  },
+  {
+    src: "/images/real-hair-styling.png",
+    alt: "Professional hair styling",
+    category: "Hair",
+    title: "Sleek Hair Styling",
   },
   {
     src: "/images/service-bridal.png",
@@ -16,64 +70,22 @@ const galleryItems = [
     title: "Bridal Eye Glamour",
   },
   {
-    src: "/images/gallery-3.png",
-    alt: "Party makeup",
-    category: "Party",
-    title: "Evening Party Glam",
-  },
-  {
-    src: "/images/service-party.png",
-    alt: "Party look",
-    category: "Party",
-    title: "Bold Party Look",
-  },
-  {
-    src: "/images/gallery-5.png",
-    alt: "Bridal hair styling",
-    category: "Hair",
-    title: "Elegant Bridal Updo",
-  },
-  {
-    src: "/images/gallery-6.png",
-    alt: "Engagement makeup",
-    category: "Engagement",
-    title: "Romantic Engagement Look",
-  },
-  {
-    src: "/images/service-engagement.png",
-    alt: "Engagement ceremony makeup",
-    category: "Engagement",
-    title: "Soft Glow Engagement",
-  },
-  {
-    src: "/images/gallery-4.png",
-    alt: "Skincare glow result",
-    category: "Skincare",
-    title: "Radiant Skin Treatment",
-  },
-  {
-    src: "/images/service-facial.png",
-    alt: "Facial treatment",
-    category: "Skincare",
-    title: "Luxury Facial",
-  },
-  {
     src: "/images/service-mehendi.png",
-    alt: "Mehendi design",
+    alt: "Mehendi design on hand",
     category: "Mehendi",
     title: "Intricate Mehendi Art",
   },
   {
-    src: "/images/service-hair.png",
-    alt: "Hair styling",
-    category: "Hair",
-    title: "Bridal Hair with Flowers",
+    src: "/images/gallery-6.png",
+    alt: "Engagement makeup look",
+    category: "Engagement",
+    title: "Romantic Engagement Look",
   },
   {
-    src: "/images/gallery-1.png",
-    alt: "Before after transformation",
-    category: "Bridal",
-    title: "Stunning Transformation",
+    src: "/images/service-facial.png",
+    alt: "Facial treatment spa",
+    category: "Skincare",
+    title: "Luxury Facial Treatment",
   },
 ];
 
@@ -101,7 +113,7 @@ export default function Gallery() {
             <span className="italic text-primary">Speaks for Itself</span>
           </h1>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto leading-relaxed">
-            Browse through our portfolio of stunning transformations, bridal looks, and beauty work created by our expert team.
+            Real transformations by Barsha — browse our portfolio of bridal looks, party makeovers, and beauty work.
           </p>
         </div>
       </section>
@@ -178,7 +190,7 @@ export default function Gallery() {
             <X className="w-5 h-5" />
           </button>
           <div
-            className="max-w-3xl max-h-[85vh] w-full"
+            className="max-w-2xl max-h-[85vh] w-full"
             onClick={(e) => e.stopPropagation()}
           >
             <img
@@ -198,7 +210,7 @@ export default function Gallery() {
             Want a Look Like These?
           </h2>
           <p className="text-muted-foreground mb-8">
-            Book your appointment today and let us create your perfect look.
+            Book your appointment today and let Barsha create your perfect look.
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <a href="/booking">

@@ -65,9 +65,9 @@ export default function About() {
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-2 gap-14 items-center">
             <div className="relative">
-              <div className="rounded-2xl overflow-hidden aspect-[4/3] shadow-2xl">
+              <div className="rounded-2xl overflow-hidden aspect-[3/4] shadow-2xl">
                 <img
-                  src="/images/about-barsha.png"
+                  src="/images/real-barsha-portrait.png"
                   alt="Barsha - Professional Makeup Artist"
                   className="w-full h-full object-cover"
                   data-testid="img-about-barsha"

@@ -8,7 +8,7 @@ const services = [
   {
     id: "bridal",
     title: "Bridal Makeup",
-    image: "/images/service-bridal.png",
+    image: "/images/real-bridal-red-after.png",
     price: "From ৳3,500",
     badge: "Most Popular",
     description:
@@ -25,8 +25,8 @@ const services = [
   {
     id: "party",
     title: "Party Makeup",
-    image: "/images/service-party.png",
-    price: "From ৳1,200",
+    image: "/images/real-party-clients.png",
+    price: "From ৳750",
     description:
       "Stand out at any party or celebration with a glamorous, vibrant makeup look. From subtle glam to bold and dramatic, we create looks that complement your outfit and occasion.",
     includes: [
@@ -41,7 +41,7 @@ const services = [
   {
     id: "engagement",
     title: "Engagement Makeup",
-    image: "/images/service-engagement.png",
+    image: "/images/real-bridal-elegant.png",
     price: "From ৳2,000",
     badge: "Popular",
     description:
@@ -74,7 +74,7 @@ const services = [
   {
     id: "hair",
     title: "Hair Styling",
-    image: "/images/service-hair.png",
+    image: "/images/real-hair-flowers.png",
     price: "From ৳600",
     description:
       "Complete your look with a professional hairstyle. From elegant updos for brides to flowing curls for parties, our hair styling services complement any occasion.",
@@ -118,6 +118,24 @@ const services = [
       "Customized care plan",
     ],
     category: "Skincare",
+  },
+  {
+    id: "hair-spa",
+    title: "Hair Spa & Rebonding",
+    image: "/images/real-hair-spa.png",
+    price: "From ৳500",
+    badge: "New",
+    description:
+      "Transform dull, damaged hair into silky, shiny and straight locks with our professional hair spa, rebonding, keratin, and botox treatments. We add deep nutrition and restore your hair's natural health.",
+    includes: [
+      "Deep conditioning treatment",
+      "Rebonding / Keratin / Botox",
+      "Scalp nutrition therapy",
+      "Anti-dandruff treatment",
+      "Hair fall reduction",
+      "Shine & smoothness boost",
+    ],
+    category: "Hair",
   },
 ];
 
