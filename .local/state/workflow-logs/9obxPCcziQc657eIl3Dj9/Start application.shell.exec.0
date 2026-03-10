@@ -1,0 +1,32 @@
+   [1m[38;2;173;127;168m▲ Next.js 15.5.12[39m[22m
+   - Local:        http://localhost:5000
+   - Network:      http://172.31.90.130:5000
+
+ [32m[1m✓[22m[39m Starting...
+ [32m[1m✓[22m[39m Ready in 1394ms
+ [37m[1m○[22m[39m Compiling / ...
+ [32m[1m✓[22m[39m Compiled / in 5s (811 modules)
+ GET / [32m200[39m in 5441ms
+ GET / [32m200[39m in 5899ms
+ [33m[1m⚠[22m[39m Blocked cross-origin request from 127.0.0.1 to /_next/* resource. To allow this, configure "allowedDevOrigins" in next.config
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ GET / [32m200[39m in 235ms
+ [37m[1m○[22m[39m Compiling /about ...
+ [32m[1m✓[22m[39m Compiled /about in 778ms (815 modules)
+ GET /about [32m200[39m in 975ms
+ GET /about [32m200[39m in 101ms
+ GET / [32m200[39m in 234ms
+ [32m[1m✓[22m[39m Compiled /services in 257ms (805 modules)
+ GET /services [32m200[39m in 444ms
+ [37m[1m○[22m[39m Compiling /gallery ...
+ [32m[1m✓[22m[39m Compiled /gallery in 760ms (820 modules)
+ GET /gallery [32m200[39m in 978ms
+ [37m[1m○[22m[39m Compiling /booking ...
+ [32m[1m✓[22m[39m Compiled /booking in 1458ms (957 modules)
+ GET /booking [32m200[39m in 1574ms
+ [37m[1m○[22m[39m Compiling /api/appointments ...
+ [32m[1m✓[22m[39m Compiled /api/appointments in 865ms (979 modules)
+ POST /api/appointments [32m200[39m in 1074ms
+ [32m[1m✓[22m[39m Compiled /contact in 363ms (982 modules)
+ GET /contact [32m200[39m in 512ms
+[?25h

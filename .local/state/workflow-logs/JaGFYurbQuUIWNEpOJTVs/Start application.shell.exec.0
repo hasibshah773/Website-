@@ -1,0 +1,40 @@
+   [1m[38;2;173;127;168m▲ Next.js 15.5.12[39m[22m
+   - Local:        http://localhost:5000
+   - Network:      http://172.31.90.130:5000
+
+ [32m[1m✓[22m[39m Starting...
+[35m[1mAttention[22m[39m: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+[36mhttps://nextjs.org/telemetry[39m
+
+
+ [37m[1m [22m[39m We detected TypeScript in your project and reconfigured your [36mtsconfig.json[39m file for you.
+ [37m[1m [22m[39m The following suggested values were added to your [36mtsconfig.json[39m. These values [36mcan be changed[39m to fit your project's needs:
+
+ [37m[1m [22m[39m 	- [36mtarget[39m was set to [1mES2017[22m (For top-level `await`. Note: Next.js only polyfills for the esmodules target.)
+ [37m[1m [22m[39m 	- [36mallowJs[39m was set to [1mtrue[22m
+ [37m[1m [22m[39m 	- [36minclude[39m was updated to add [1m'.next/types/**/*.ts'[22m
+ [37m[1m [22m[39m 	- [36mplugins[39m was updated to add [1m{ name: 'next' }[22m
+
+ [37m[1m [22m[39m The following [37mmandatory changes[39m were made to your [36mtsconfig.json[39m:
+
+ [37m[1m [22m[39m 	- [36mresolveJsonModule[39m was set to [1mtrue[22m (to match webpack resolution)
+ [37m[1m [22m[39m 	- [36misolatedModules[39m was set to [1mtrue[22m (requirement for SWC / Babel)
+
+ [32m[1m✓[22m[39m Ready in 1409ms
+ [37m[1m○[22m[39m Compiling / ...
+ [32m[1m✓[22m[39m Compiled / in 5.3s (824 modules)
+ GET / [32m200[39m in 5900ms
+ [33m[1m⚠[22m[39m Cross origin request detected from f93b0ad6-af47-45c8-929b-5e343c99e906-00-tw8fp4a1xn1a.kirk.replit.dev to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ [32m[1m✓[22m[39m Compiled in 854ms (811 modules)
+ GET / [32m200[39m in 212ms
+ [33m[1m⚠[22m[39m Found a change in next.config.ts. Restarting the server to apply the changes...
+   [1m[38;2;173;127;168m▲ Next.js 15.5.12[39m[22m
+   - Local:        http://localhost:5000
+   - Network:      http://172.31.90.130:5000
+
+ [32m[1m✓[22m[39m Starting...
+ [32m[1m✓[22m[39m Ready in 1336ms
+[?25h
