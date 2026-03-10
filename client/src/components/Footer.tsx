@@ -21,7 +21,7 @@ export default function Footer() {
             </p>
             <div className="flex gap-3 mt-5">
               <a
-                href="https://www.facebook.com"
+                href="https://www.facebook.com/share/1B4SnLU7Zp/"
                 target="_blank"
                 rel="noopener noreferrer"
                 data-testid="link-facebook"

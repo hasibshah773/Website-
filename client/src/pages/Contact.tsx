@@ -37,7 +37,7 @@ const contactMethods = [
     title: "Facebook",
     detail: "Dream Look Makeover",
     sub: "Follow us for updates & offers",
-    action: "https://www.facebook.com",
+    action: "https://www.facebook.com/share/1B4SnLU7Zp/",
     label: "Follow Us",
     color: "bg-blue-50",
     iconColor: "text-blue-600",
